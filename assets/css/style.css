@@ -407,8 +407,10 @@ width: 1000px;
     }
     .Click_deck{
    
-        left: 70%;
+        left: 65%;
         top: 20%;
+        width: 120px;
+        font-size: x-large;
  
     }
     .card-front{

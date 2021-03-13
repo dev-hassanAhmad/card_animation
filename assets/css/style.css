@@ -1,0 +1,575 @@
+
+.container{
+    left:45%;
+    right: 50%;
+    top:30%;
+
+    position: absolute;
+}
+.card-front{
+    width: 225px;
+    height: 320px;
+}
+.card{
+    position: absolute;
+}
+.card-2{
+    transform: translate(-3%, -3%);
+
+}
+.card-3{
+    transform: translate(-6%, -6%);
+
+}
+.card-4{
+    transform: translate(-9%, -9%);
+
+}
+.card-5{
+    transform: translate(-12%,-12%);
+
+}
+.card-6{
+    transform: translate(-15%, -15%);
+
+}
+.card-7{
+    transform: translate(-18%, -18%);
+
+}
+.card-2:hover{
+    transform: translate(-3%, -8%);
+
+}
+.card-3{
+    transform: translate(-6%, -6%);
+
+}
+.card-4{
+    transform: translate(-9%, -9%);
+
+}
+.card-5{
+    transform: translate(-12%,-12%);
+
+}
+.card-6{
+    transform: translate(-15%, -15%);
+
+}
+.card-7{
+    transform: translate(-18%, -18%);
+
+}
+
+.spread.card-1{
+    transform: rotate(15deg) translateY(-10%) translateX(140%);
+    transition: 0.5s;
+}
+
+.spread.card-2{
+    transform: rotate(10deg) translateY(-7%) translateX(100%);
+    
+    transition: 0.5s;
+}
+.spread.card-3{
+    transform: rotate(10deg) translateY(-15%) translateX(50%);
+
+    transition: 0.5s;
+}
+.spread.card-4{
+    transform: rotate(0deg) translateY(-15%) translateX(10%);
+    transition: 0.5s;
+}
+.spread.card-5{
+    transform: rotate(0deg) translateY(-10%) translateX(-50%);
+    transition: 0.5s;
+}
+.spread.card-6{
+    transform: rotate(-7deg) translateY(-10%) translateX(-70%);
+    transition: 0.5s;
+}
+
+.spread.card-7{
+    transform: rotate(-15deg) translateY(-5%) translateX(-100%);
+    transition: 1s;
+}
+/* RESET */
+.reverse.card-1{
+ 
+    transform: rotate(0deg) translateY(0) translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.reverse.card-2{
+  
+    transform: rotate(0deg) translateY(-3%) translateX(-3%);
+    
+    transition: all 1s ease-in-out;
+}
+.reverse.card-3{
+
+    transform: rotate(0deg) translateY(-6%) translateX(-6%);
+
+    transition: all 1s ease-in-out;
+}
+.reverse.card-4{
+ 
+    transform: rotate(0deg) translateY(-9%) translateX(-9%);
+    transition: all 1s ease-in-out;
+}
+.reverse.card-5{
+
+    transform: rotate(0deg) translateY(-12%) translateX(-12%);
+    transition: all 1s ease-in-out;
+}
+.reverse.card-6{
+
+    transform: rotate(0deg) translateY(-15%) translateX(-15%);
+    transition: all 1s ease-in-out;
+}
+
+.reverse.card-7{
+  
+    transform: rotate(0deg) translateY(-18%) translateX(-18%);
+    transition: all 1s ease-in-out;
+}
+
+.Click_deck{
+    position: absolute;
+    left: 65%;
+    top: 45%;
+    font-size: xx-large;
+    z-index: -1;
+}
+.hide_deck{
+    display: none;
+}
+
+.styleNone{
+    display: none;
+}
+.back{
+    display: none;
+}
+
+.selected-card{
+position: absolute;
+top: 90%;
+left: 25%;
+}
+.shuffleButton {
+position: absolute;
+top: 10vh;
+
+border: none;
+
+padding: 15px 32px;
+
+
+
+font-size: 16px;
+}
+.reset {
+position: absolute;
+
+border: none;
+
+padding: 15px 32px;
+
+
+}
+.Buttons{
+position: absolute;
+left:10%;
+top:40%;
+
+}
+.cards{
+
+
+left: 30%;
+top: 150%;
+
+}
+.backImg{
+width: 400px;
+}
+.shuffle{
+
+animation:  first 2s ease-in-out forwards;
+
+}
+.shuffle2{
+
+animation:  second 3s ease-in-out forwards;
+
+}
+.shuffle3{
+
+animation:  third 4s ease-in-out forwards;
+
+}
+resetPosition{
+animation: fourth 1 ease-in-out forwards;
+}
+
+@keyframes first {
+
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-120%);
+z-index: 0;}
+
+
+
+100% {
+transform: rotate(0deg) translateY(-20%) translateX(-20%);
+z-index: 1;
+
+}
+}
+
+@keyframes second {
+
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-120%);
+z-index: 0;}
+
+
+
+100% {
+transform: rotate(0deg) translateY(-22%) translateX(-22%);
+z-index: 1;
+
+}
+}
+
+@keyframes third {
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-600%);
+z-index: 0;}
+
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-120%);
+z-index: 0;}
+
+
+100% {
+transform: rotate(0deg) translateY(-24%) translateX(-24%);
+z-index: 2;
+
+}
+}
+@keyframes fourth{
+
+50% {
+transform: rotate(0deg) translateY(-5%) translateX(-10%);
+z-index: 0;}
+
+
+
+100% {
+transform: rotate(0deg) translateY(-5%) translateX(-10%);
+z-index: 1;
+
+}
+}
+
+.shuffle_1{
+
+animation:  first_1 2s ease-in-out forwards;
+
+}
+.shuffle_2{
+
+animation:  second_2 3s ease-in-out forwards;
+
+}
+.shuffle_3{
+
+animation:  third_3 4s ease-in-out forwards;
+
+}
+resetPosition{
+animation: fourth 1 ease-in-out forwards;
+}
+
+@keyframes first_1 {
+
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-120%);
+z-index: 0;}
+
+
+
+100% {
+transform: rotate(0deg) translateY(-16%) translateX(-16%);
+z-index: 1;
+
+}
+}
+
+@keyframes second_2 {
+
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-120%);
+z-index: 0;}
+
+
+
+
+100% {
+transform: rotate(0deg) translateY(-19%) translateX(-19%);
+z-index: 1;
+
+}
+}
+
+@keyframes third_3 {
+
+
+50% {
+transform: rotate(0deg) translateY(-25%) translateX(-120%);
+z-index: 0;}
+
+
+100% {
+transform: rotate(0deg) translateY(-23%) translateX(-23%);
+z-index: 2;
+
+}
+}
+
+
+/* >>>>>>>>>>>>>>>>>>> */
+
+
+.selected-card-description {
+position: absolute;
+top: -7%;
+left: 40%;
+width: 300px;
+height: 300px;
+
+}
+.selected-card{
+width: 1000px;
+}
+@media screen and (max-width: 1024px) {
+    .container{
+      left: 50%;
+  
+    }
+    .Buttons {
+        position: absolute;
+        left: 10%;
+        top: 40%;
+    }
+    .Click_deck{
+   
+        left: 80%;
+        top: 35%;
+ 
+    }
+}
+@media screen and (max-width: 800px) {
+    .container{
+      left: 60%;
+      right: 50%;
+    }
+    .Buttons {
+        position: absolute;
+        left: 60%;
+        top: 70%;
+    }
+
+    .shuffleButton{
+        position: relative;
+        top:0vh;
+        left: 110%;
+    }
+    .Click_deck{
+   
+        left: 100%;
+        top: 35%;
+        width: 150px;
+ 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        left:40%;
+        right: 50%;
+        top:20%;
+    
+        position: absolute;
+    }
+    .Click_deck{
+   
+        left: 70%;
+        top: 20%;
+ 
+    }
+    .card-front{
+        width: 80px;
+        height: 160px;
+    }
+    .card-2{
+        transform: translate(-2%, -2%);
+    
+    }
+    .card-3{
+        transform: translate(-4%, -4%);
+    
+    }
+    .card-4{
+        transform: translate(-6%, -6%);
+    
+    }
+    .card-5{
+        transform: translate(-8%,-8%);
+    
+    }
+    .card-6{
+        transform: translate(-10%, -10%);
+    
+    }
+    .card-7{
+        transform: translate(-12%, -12%);
+    
+    }
+
+    .card-3{
+        transform: translate(-6%, -6%);
+    
+    }
+    .card-4{
+        transform: translate(-9%, -9%);
+    
+    }
+    .card-5{
+        transform: translate(-12%,-12%);
+    
+    }
+    .card-6{
+        transform: translate(-15%, -15%);
+    
+    }
+    .card-7{
+        transform: translate(-18%, -18%);
+    
+    }
+    
+    .spread.card-1{
+        transform: rotate(15deg) translateY(-10%) translateX(130%);
+        transition: 0.5s;
+    }
+    
+    .spread.card-2{
+        transform: rotate(10deg) translateY(-7%) translateX(90%);
+        
+        transition: 0.5s;
+    }
+    .spread.card-3{
+        transform: rotate(10deg) translateY(-15%) translateX(40%);
+    
+        transition: 0.5s;
+    }
+    .spread.card-4{
+        transform: rotate(0deg) translateY(-15%) translateX(10%);
+        transition: 0.5s;
+    }
+    .spread.card-5{
+        transform: rotate(0deg) translateY(-10%) translateX(-40%);
+        transition: 0.5s;
+    }
+    .spread.card-6{
+        transform: rotate(-7deg) translateY(-10%) translateX(-60%);
+        transition: 0.5s;
+    }
+    
+    .spread.card-7{
+        transform: rotate(-15deg) translateY(-5%) translateX(-90%);
+        transition: 1s;
+    }
+    /* RESET */
+    .reverse.card-1{
+ 
+        transform: rotate(0deg) translateY(0) translateX(0);
+        transition: all 1s ease-in-out;
+    }
+    
+    .reverse.card-2{
+ 
+        transform: rotate(0deg) translateY(-3%) translateX(-3%);
+        
+        transition: all 1s ease-in-out;
+    }
+    .reverse.card-3{
+       
+        transform: rotate(0deg) translateY(-6%) translateX(-6%);
+    
+        transition: all 1s ease-in-out;
+    }
+    .reverse.card-4{
+     
+        transform: rotate(0deg) translateY(-9%) translateX(-9%);
+        transition: all 1s ease-in-out;
+    }
+    .reverse.card-5{
+    
+        transform: rotate(0deg) translateY(-12%) translateX(-12%);
+        transition: all 1s ease-in-out;
+    }
+    .reverse.card-6{
+
+        transform: rotate(0deg) translateY(-15%) translateX(-15%);
+        transition: all 1s ease-in-out;
+    }
+    
+    .reverse.card-7{
+
+        transform: rotate(0deg) translateY(-18%) translateX(-18%);
+        transition: all 1s ease-in-out;
+    }
+    .Buttons{
+
+            position: absolute;
+            left: 21%;
+            top: 60%;
+        }
+    .reset {
+        padding: 10px 26px;
+    }
+    .shuffleButton {
+        padding: 10px 24px;
+    }
+
+    .selected-card-description {
+        position: absolute;
+        top:800%;
+        left: -50%;
+        width: 300px;
+        height: 300px;
+        
+        }
+        .selected-card{
+        width: 100px;
+        }
+        .cards{
+
+            position: absolute;
+            left: -50%;
+            top: 150%;
+            width: 300px;
+
+            
+            }
+
+    .desc-front{
+        width: 300px;
+    }
+  }
+
+
